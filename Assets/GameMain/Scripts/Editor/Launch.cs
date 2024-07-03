@@ -10,7 +10,7 @@ namespace GameMain.Scripts.Editor
     
     public class Launch
     {
-        [MenuItem("Tools/Soulstealers/Launch Game _F5")]
+        [MenuItem("Tools/Launch Game _F5")]
         public static void LaunchGame()
         {
             if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
